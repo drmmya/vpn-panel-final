@@ -1,0 +1,9 @@
+V2Ray fix applied:
+- First installer panel/UI/multi-server files are kept.
+- V2Ray/Xray install system changed from VLESS REALITY/XTLS to the 2nd installer's working VLESS TCP security=none system.
+- Updated files:
+  1) install-v2ray.sh
+  2) panel-admin/v2ray.php
+  3) panel-admin/api_status.php
+- New client link format:
+  vless://UUID@SERVER_IP:PORT?encryption=none&security=none&type=tcp#VPN-Panel-V2Ray
